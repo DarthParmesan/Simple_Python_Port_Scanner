@@ -36,9 +36,11 @@ class Scanner:
 
         starttime = datetime.now()
         for port in range(int(start), int(end)+1):
+            print("Checking Port >> " + str(port))
             if self.isOpen(target, port):
-                # print("port {} is open".format(port))
+                print("port {} is open".format(port))
                 ports.append(port)
+
 
         endtime = datetime.now()
         elapsed = endtime - starttime
