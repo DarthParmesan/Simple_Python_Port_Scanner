@@ -1,3 +1,3 @@
-# Simple_Python_Port_Scanner
+Simple Port Scanner in Python.
 
 
